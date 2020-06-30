@@ -60,15 +60,16 @@ MCBS(myTissue,myLight)
     \emph{Computer Methods and Programs in Biomedicine}, \bold{84}: 50–-57.
     \doi{10.1016/j.cmpb.2006.07.007}.
 
-    Baranyai, L., Zude, M. (2008)
-    Analysis of Laser Light Migration in Apple Tissue by Monte Carlo Simulation.
-    \emph{Progress in Agricultural Engineering Sciences}, \bold{4}: 45-–59.
-    \url{https://akjournals.com/view/journals/446/4/1/article-p45.xml}.
-
     Baranyai, L., Zude, M. (2009)
     Analysis of laser light propagation in kiwifruit using backscattering imaging and Monte Carlo simulation.
     \emph{Computers and Electronics in Agriculture}, \bold{69}: 33-–39.
     \doi{10.1016/j.compag.2009.06.011}.
+    
+    Baranyai, L. (2020)
+    Laser induced diffuse reflectance imaging – Monte Carlo simulation of backscattering measured on the surface.
+    \emph{MethodsX}, \bold{7}: 100958.
+    \doi{10.1016/j.mex.2020.100958}.
+
 }
 \author{
     The object design was inspired by the C code "Small Monte Carlo" written by Scott Prahl (http://omlc.org).

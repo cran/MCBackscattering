@@ -3,7 +3,7 @@
 \alias{Simulation.MCBS}
 \title{Runs the Monte Carlo Simulation}
 \description{
-    This function performs all actions to run the simulation. It calls other functions that prepare computation and calculate photon trajectory. Please keep in mind, that this technique can be slow depending on the number of photons and computational power of your hardware. Relevant information and progress is reported on terminal.
+    This function performs all actions to run the simulation. It calls other functions that prepare computation and calculate photon trajectory. Please keep in mind, that this technique can be slow depending on the number of photons and computational power of your hardware.
 }
 \usage{
 Simulation(myObject,iAngle=0)
@@ -48,15 +48,15 @@ Simulation(myObject,iAngle=0)
     \emph{Computer Methods and Programs in Biomedicine}, \bold{84}: 50–-57.
     \doi{10.1016/j.cmpb.2006.07.007}.
 
-    Baranyai, L., Zude, M. (2008)
-    Analysis of Laser Light Migration in Apple Tissue by Monte Carlo Simulation.
-    \emph{Progress in Agricultural Engineering Sciences}, \bold{4}: 45-–59.
-    \url{https://akjournals.com/view/journals/446/4/1/article-p45.xml}.
-
     Baranyai, L., Zude, M. (2009)
     Analysis of laser light propagation in kiwifruit using backscattering imaging and Monte Carlo simulation.
     \emph{Computers and Electronics in Agriculture}, \bold{69}: 33-–39.
     \doi{10.1016/j.compag.2009.06.011}.
+    
+    Baranyai, L. (2020)
+    Laser induced diffuse reflectance imaging – Monte Carlo simulation of backscattering measured on the surface.
+    \emph{MethodsX}, \bold{7}: 100958.
+    \doi{10.1016/j.mex.2020.100958}.
 }
 \note{
     Please note that quality of results depends on the number of photons. The more is used the better quality you get. The minimum suggested number is 100,000 photons. If you calculate the amount of photons with sensor or camera integration time, this number will increase above billion.
